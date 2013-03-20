@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="AnimalTests.cs" />
     <Compile Include="CatTests.cs" />
+    <Compile Include="DogTests.cs" />
     <Compile Include="PetTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
