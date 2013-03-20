@@ -7,7 +7,7 @@ using NUnit.Framework;
 
 namespace Spo12hLabb1Tests
 {
-    public class Class1
+    public class ProgramTests
     {
         #region ------ Fields -------
         // Variabler
