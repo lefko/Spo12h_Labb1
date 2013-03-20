@@ -7,26 +7,15 @@ using NUnit.Framework;
 
 namespace Spo12hLabb1Tests
 {
+    [TestFixture]
     public class ProgramTests
     {
-        #region ------ Fields -------
-        // Variabler
+        [Test]
+        public void TheFirstTest()
+        {
+            
+        }
 
-        #endregion
-
-        #region ------- Constructors --------
-        // Konstruktorer
-
-        #endregion
-
-        #region --------- Properties ---------
-        // Properties
-
-        #endregion
-
-        #region --------- Methods -----------
-        // Metoder
-
-        #endregion
+        
     }
 }
