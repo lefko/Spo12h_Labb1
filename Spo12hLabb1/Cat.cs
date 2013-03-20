@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Spo12hLabb1
 {
-    class Cat : Pet
+    public class Cat : Pet
     {
         #region ------ Fields -------
 
