@@ -10,6 +10,7 @@ namespace Spo12hLabb1
         #region ------ Fields -------
         // Variabler
 
+        // privata variabler. Sätts med Properties
         private string name;
         private int age;
 
@@ -19,14 +20,16 @@ namespace Spo12hLabb1
 
         // Konstruktorer
 
+        // Default-konstruktor. Kallar på den andra konstruktor som sätter värdena till default
         public Animal():this("Not named", 0)
         {
         }
 
-        public Animal(string nm, int a)
+        //Andra konstruktorn som tar emot parametrar för samtliga fält
+        public Animal(string name, int age)
         {
-            Name = nm;
-            Age = a;
+            Name = name;
+            Age = age;
         }
 
         #endregion
@@ -41,6 +44,7 @@ namespace Spo12hLabb1
             set { name = value;}
         }
 
+        // Denna prppertie har kolla så att age alldrig kan bli under 0
         public int Age
         {
             get { return age; }
@@ -59,6 +63,7 @@ namespace Spo12hLabb1
 
         // Metoder
 
+        // ToString metod som innehåller info om samtliga attribut
         public override string ToString()
         {
             string s = "\nDjurets Detaljer: \nNamn: " + Name + "\nÅlder: " + Age;
