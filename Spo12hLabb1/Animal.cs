@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Spo12hLabb1
 {
-    class Animal
+    public class Animal
     {
         #region ------ Fields -------
         // Variabler
