@@ -2,29 +2,33 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using NUnit.Framework;
 
-
-namespace Spo12hLabb1Tests
+namespace Spo12hLabb1
 {
-    public class Class1
+    class Animal
     {
         #region ------ Fields -------
         // Variabler
 
+        private string name;
+        private int age;
+
         #endregion
 
         #region ------- Constructors --------
+
         // Konstruktorer
 
         #endregion
 
         #region --------- Properties ---------
+
         // Properties
 
         #endregion
 
         #region --------- Methods -----------
+
         // Metoder
 
         #endregion
