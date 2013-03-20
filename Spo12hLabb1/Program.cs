@@ -56,6 +56,41 @@ namespace Spo12hLabb1
             Console.WriteLine(myPet3.ToString());
 
             #endregion
+
+            #region Cat Tester
+
+            //Cat myCat = new Cat();
+            //Console.WriteLine("\nCreated new Cat using the def Constructor\n");
+            //Console.WriteLine(myCat.ToString());
+
+
+            //Cat myCat2 = new Cat("Sylvia", 3, "Andreas", false, "svart");
+            //Console.WriteLine("\nCreated new Cat using the second Constructor\n");
+            //Console.WriteLine(myCat2.ToString());
+
+            //Cat myCat3 = new Cat();
+            //Console.WriteLine("\nDu håller på att skapa en ny Katt");
+            //Console.Write("Ange Kattens namn: ");
+            //myCat3.Name = Console.ReadLine();
+            //Console.Write("Ange Kattens ålder: ");
+            //myCat3.Age = int.Parse(Console.ReadLine());
+            //Console.Write("Ange Ägarens namn: ");
+            //myCat3.Owner = Console.ReadLine();
+            //Console.Write("Är katten på bra humör? skriv J för Ja eller N för Nej: ");
+            //string inMatning = "J";
+            //inMatning = Console.ReadLine();
+            //if (inMatning == "N")
+            //    myCat3.Mood = false;
+            //else
+            //    myCat3.Mood = true;
+            //Console.WriteLine(myCat3.ToString());
+   
+            
+            //// Här ska det implementera HUMÖR ------------------------------!!!!!!!!!
+            //Console.WriteLine("\nDu har angett:\n");
+            //Console.WriteLine(myCat3.ToString());
+            #endregion
+
             Console.ReadLine();
         }
     }
