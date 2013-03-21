@@ -55,7 +55,7 @@ namespace Spo12hLabb1
             else
                 dogMood = "arg och otrevlig";
 
-            string s = "\nDjurets Detaljer: \nNamn: " + Name + "\nÅlder: " + Age + "\nÄgare: " + Owner + "\nRas: " + Race + "\nHumör: " + dogMood;
+            string s = base.ToString() + "\nRas: " + Race + "\nHumör: " + dogMood;
             return s;
         }
 

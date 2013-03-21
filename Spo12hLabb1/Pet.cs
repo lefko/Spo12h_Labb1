@@ -61,10 +61,11 @@ namespace Spo12hLabb1
         #region --------- Methods -----------
 
         // Metoder
+        // Skriver inte ut Mood då det enast är användbart i subklasserna
 
         public override string ToString()
         {
-            string s = base.ToString() + "\nÄgare: " + Owner + "\nHumör: " + Mood;
+            string s = base.ToString() + "\nÄgare: " + Owner;
             return s;
         }
 

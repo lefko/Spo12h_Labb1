@@ -55,7 +55,7 @@ namespace Spo12hLabb1
             else
                 catMood = "arg och otrevlig";
 
-            string s = "\nDjurets Detaljer: \nNamn: " + Name + "\nÅlder: " + Age + "\nÄgare: " + Owner + "\nFärg: " + Color + "\nHumör: " + catMood;
+            string s = base.ToString() + "\nFärg: " + Color + "\nHumör: " + catMood;
             return s;
         }
 
