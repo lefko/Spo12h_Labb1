@@ -79,7 +79,7 @@ namespace Spo12hLabb1
             Console.Write("Är katten på bra humör? skriv J för Ja eller N för Nej: ");
             string inMatningCat = "J";
             inMatningCat = Console.ReadLine();
-            if (inMatningCat == "N")
+            if (inMatningCat == "N" || inMatningCat == "n")
                 myCat3.Mood = false;
             else
                 myCat3.Mood = true;
@@ -110,7 +110,7 @@ namespace Spo12hLabb1
             Console.Write("Är hunden på bra humör? skriv J för Ja eller N för Nej: ");
             string inMatningDog = "J";
             inMatningDog = Console.ReadLine();
-            if (inMatningDog == "N")
+            if (inMatningDog == "N" || inMatningDog == "n")
                 myDog3.Mood = false;
             else
                 myDog3.Mood = true;
@@ -120,5 +120,9 @@ namespace Spo12hLabb1
 
             Console.ReadLine();
         }
+
+        #region ------- Methods -------
+
+        #endregion
     }
 }
